@@ -1,0 +1,553 @@
+fsmblm0@fsmblm0-A4321A6421-B150 ~ $ cd Desktop/paralel/
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ export PATH="$PATH:~/.openmpi/bin"
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpicc comp.c -o comp.x -lmfsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 4 ./comp.x
+I am rank 1, my local toplam is 9008153.000000
+I am rank 2, my local toplam is 9000648.000000
+I am rank 0, my local toplam is 9003238.000000
+I am rank 3, my local toplam is 9011175.000000
+Ortalama = 12.007738
+I am rank 2, my var is 13.026159
+I am rank 0, my var is 12.991716
+I am rank 1, my var is 13.016704
+I am rank 3, my var is 12.991313
+Standard deviation : 7.212898
+MPI_Wtime : 0.0870
+MPI_Wtime : 0.0870
+MPI_Wtime : 0.0869
+MPI_Wtime : 0.0871
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 4 ./comp.x
+I am rank 1, my local toplam is 9000490.000000
+I am rank 2, my local toplam is 9008878.000000
+I am rank 3, my local toplam is 9007074.000000
+I am rank 0, my local toplam is 9005135.000000
+Ortalama = 12.007193
+I am rank 2, my var is 13.014245
+I am rank 1, my var is 13.014705
+I am rank 0, my var is 13.004181
+I am rank 3, my var is 12.989132
+Standard deviation : 7.212646
+MPI_Wtime : 0.0792
+MPI_Wtime : 0.0793
+MPI_Wtime : 0.0792
+MPI_Wtime : 0.0793
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 4 ./comp.x
+I am rank 1, my local toplam is 8996936.000000
+I am rank 2, my local toplam is 8996156.000000
+I am rank 3, my local toplam is 8999618.000000
+I am rank 0, my local toplam is 8999292.000000
+Ortalama = 11.997334
+I am rank 1, my var is 13.005836
+I am rank 2, my var is 13.003641
+I am rank 3, my var is 12.982881
+I am rank 0, my var is 12.998157
+Standard deviation : 7.210445
+MPI_Wtime : 0.0775
+MPI_Wtime : 0.0775
+MPI_Wtime : 0.0775
+MPI_Wtime : 0.0776
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 4 ./comp.x
+I am rank 1, my local toplam is 9005439.000000
+I am rank 2, my local toplam is 9002768.000000
+I am rank 3, my local toplam is 8998578.000000
+I am rank 0, my local toplam is 8990756.000000
+Ortalama = 11.999181
+I am rank 3, my var is 12.996588
+I am rank 1, my var is 13.021771
+I am rank 0, my var is 13.003684
+I am rank 2, my var is 12.980221
+Standard deviation : 7.211260
+MPI_Wtime : 0.1005
+MPI_Wtime : 0.1005
+MPI_Wtime : 0.1005
+MPI_Wtime : 0.1005
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 4 ./comp.x
+I am rank 1, my local toplam is 9004505.000000
+I am rank 2, my local toplam is 8992550.000000
+I am rank 3, my local toplam is 9011641.000000
+I am rank 0, my local toplam is 9004430.000000
+Ortalama = 12.004375
+I am rank 2, my var is 13.004690
+I am rank 1, my var is 12.995577
+I am rank 3, my var is 12.998811
+I am rank 0, my var is 12.991979
+Standard deviation : 7.210482
+MPI_Wtime : 0.1151
+MPI_Wtime : 0.1151
+MPI_Wtime : 0.1151
+MPI_Wtime : 0.1152
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 4 ./comp.x
+I am rank 1, my local toplam is 9004505.000000
+I am rank 2, my local toplam is 8992550.000000
+I am rank 0, my local toplam is 9004430.000000
+I am rank 3, my local toplam is 9011641.000000
+Ortalama = 12.004375
+I am rank 3, my var is 12.998811
+I am rank 2, my var is 13.004690
+I am rank 1, my var is 12.995577
+I am rank 0, my var is 12.991979
+Standard deviation : 7.210482
+MPI_Wtime : 0.1246
+MPI_Wtime : 0.1247
+MPI_Wtime : 0.1247
+MPI_Wtime : 0.1246
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 4 ./comp.x
+I am rank 1, my local toplam is 8996086.000000
+I am rank 2, my local toplam is 8994910.000000
+I am rank 3, my local toplam is 8999822.000000
+I am rank 0, my local toplam is 8991054.000000
+Ortalama = 11.993958
+I am rank 3, my var is 12.980376
+I am rank 0, my var is 12.979155
+I am rank 1, my var is 12.981081
+I am rank 2, my var is 13.010424
+Standard deviation : 7.207707
+MPI_Wtime : 0.1114
+MPI_Wtime : 0.1116
+MPI_Wtime : 0.1115
+MPI_Wtime : 0.1114
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 4 ./comp.x
+I am rank 1, my local toplam is 8996086.000000
+I am rank 2, my local toplam is 8994910.000000
+I am rank 3, my local toplam is 8999822.000000
+I am rank 0, my local toplam is 8991054.000000
+Ortalama = 11.993958
+I am rank 3, my var is 12.980376
+I am rank 2, my var is 13.010424
+I am rank 1, my var is 12.981081
+I am rank 0, my var is 12.979155
+Standard deviation : 7.207707
+MPI_Wtime : 0.1202
+MPI_Wtime : 0.1201
+MPI_Wtime : 0.1203
+MPI_Wtime : 0.1203
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 4 ./comp.x
+I am rank 1, my local toplam is 8994379.000000
+I am rank 2, my local toplam is 8997083.000000
+I am rank 3, my local toplam is 8987543.000000
+I am rank 0, my local toplam is 9004767.000000
+Ortalama = 11.994591
+I am rank 3, my var is 12.982113
+I am rank 2, my var is 13.007553
+I am rank 0, my var is 12.989474
+I am rank 1, my var is 12.995746
+Standard deviation : 7.209361
+MPI_Wtime : 0.1389
+MPI_Wtime : 0.1310
+MPI_Wtime : 0.1389
+MPI_Wtime : 0.1389
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 4 ./comp.x
+I am rank 1, my local toplam is 9001357.000000
+I am rank 2, my local toplam is 8997010.000000
+I am rank 0, my local toplam is 9006230.000000
+I am rank 3, my local toplam is 9000498.000000
+Ortalama = 12.001698
+I am rank 1, my var is 13.001739
+I am rank 3, my var is 13.016966
+I am rank 2, my var is 12.958547
+I am rank 0, my var is 13.013398
+Standard deviation : 7.210454
+MPI_Wtime : 0.1194
+MPI_Wtime : 0.1194
+MPI_Wtime : 0.1195
+MPI_Wtime : 0.1194
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 3 ./comp.x
+I am rank 1, my local toplam is 11999484.000000
+I am rank 0, my local toplam is 11984959.000000
+Ortalama = 11.997815
+I am rank 2, my local toplam is 12009002.000000
+I am rank 1, my var is 17.302779
+MPI_Wtime : 0.0786
+I am rank 0, my var is 17.361676
+Standard deviation : 7.211546
+MPI_Wtime : 0.0785
+I am rank 2, my var is 17.341936
+MPI_Wtime : 0.0784
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 3 ./comp.x
+I am rank 1, my local toplam is 11987602.000000
+I am rank 0, my local toplam is 12004176.000000
+Ortalama = 11.998698
+I am rank 2, my local toplam is 12004316.000000
+I am rank 1, my var is 17.330025
+MPI_Wtime : 0.0785
+I am rank 0, my var is 17.324555
+Standard deviation : 7.211378
+MPI_Wtime : 0.0785
+I am rank 2, my var is 17.349399
+MPI_Wtime : 0.0786
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 3 ./comp.x
+I am rank 1, my local toplam is 11987602.000000
+I am rank 0, my local toplam is 12004176.000000
+Ortalama = 11.998698
+I am rank 2, my local toplam is 12004316.000000
+I am rank 1, my var is 17.330025
+MPI_Wtime : 0.0781
+I am rank 0, my var is 17.324555
+Standard deviation : 7.211378
+MPI_Wtime : 0.0782
+I am rank 2, my var is 17.349399
+MPI_Wtime : 0.0782
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 3 ./comp.x
+I am rank 1, my local toplam is 11995566.000000
+I am rank 0, my local toplam is 11998634.000000
+Ortalama = 11.996111
+I am rank 2, my local toplam is 11994132.000000
+I am rank 1, my var is 17.354331
+I am rank 0, my var is 17.339103
+I am rank 2, my var is 17.338158
+MPI_Wtime : 0.0784
+MPI_Wtime : 0.0785
+Standard deviation : 7.213293
+MPI_Wtime : 0.0784
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 3 ./comp.x
+I am rank 1, my local toplam is 11998627.000000
+I am rank 0, my local toplam is 12012983.000000
+I am rank 2, my local toplam is 12006762.000000
+Ortalama = 12.006124
+I am rank 2, my var is 17.331356
+I am rank 1, my var is 17.329277
+MPI_Wtime : 0.0790
+I am rank 0, my var is 17.353812
+Standard deviation : 7.212104
+MPI_Wtime : 0.0790
+MPI_Wtime : 0.0790
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 3 ./comp.x
+I am rank 1, my local toplam is 12010140.000000
+I am rank 0, my local toplam is 12000352.000000
+Ortalama = 12.004947
+I am rank 2, my local toplam is 12004348.000000
+I am rank 1, my var is 17.317532
+I am rank 0, my var is 17.331925
+I am rank 2, my var is 17.347874
+MPI_Wtime : 0.0781
+MPI_Wtime : 0.0781
+Standard deviation : 7.210917
+MPI_Wtime : 0.0781
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 3 ./comp.x
+I am rank 1, my local toplam is 12010140.000000
+I am rank 0, my local toplam is 12000352.000000
+Ortalama = 12.004947
+I am rank 2, my local toplam is 12004348.000000
+I am rank 2, my var is 17.347874
+I am rank 1, my var is 17.317532
+MPI_Wtime : 0.0787
+I am rank 0, my var is 17.331925
+Standard deviation : 7.210917
+MPI_Wtime : 0.0788
+MPI_Wtime : 0.0787
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 3 ./comp.x
+I am rank 1, my local toplam is 11984764.000000
+I am rank 0, my local toplam is 11993916.000000
+Ortalama = 11.990234
+I am rank 2, my local toplam is 11992023.000000
+I am rank 0, my var is 17.327029
+I am rank 2, my var is 17.334584
+I am rank 1, my var is 17.320918
+MPI_Wtime : 0.0793
+Standard deviation : 7.209891
+MPI_Wtime : 0.0793
+MPI_Wtime : 0.0794
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 3 ./comp.x
+I am rank 1, my local toplam is 11984764.000000
+I am rank 0, my local toplam is 11993916.000000
+I am rank 2, my local toplam is 11992023.000000
+Ortalama = 11.990234
+I am rank 2, my var is 17.334584
+I am rank 0, my var is 17.327029
+I am rank 1, my var is 17.320918
+MPI_Wtime : 0.0786
+MPI_Wtime : 0.0787
+Standard deviation : 7.209891
+MPI_Wtime : 0.0787
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 3 ./comp.x
+I am rank 1, my local toplam is 12003349.000000
+I am rank 0, my local toplam is 12000761.000000
+Ortalama = 12.003897
+I am rank 2, my local toplam is 12007580.000000
+I am rank 1, my var is 17.329392
+I am rank 0, my var is 17.334063
+I am rank 2, my var is 17.310338
+MPI_Wtime : 0.0787
+MPI_Wtime : 0.0787
+Standard deviation : 7.209285
+MPI_Wtime : 0.0787
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 2 ./comp.x
+I am rank 0, my local toplam is 18008951.000000
+Ortalama = 12.009054
+I am rank 1, my local toplam is 18018211.000000
+I am rank 0, my var is 25.995946
+Standard deviation : 7.209835
+MPI_Wtime : 0.0809
+I am rank 1, my var is 25.985775
+MPI_Wtime : 0.0808
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 2 ./comp.x
+I am rank 0, my local toplam is 17999744.000000
+Ortalama = 12.001076
+I am rank 1, my local toplam is 18003483.000000
+I am rank 0, my var is 25.994754
+I am rank 1, my var is 25.983623
+MPI_Wtime : 0.0811
+Standard deviation : 7.209603
+MPI_Wtime : 0.0812
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 2 ./comp.x
+I am rank 0, my local toplam is 17999744.000000
+Ortalama = 12.001076
+I am rank 1, my local toplam is 18003483.000000
+I am rank 0, my var is 25.994754
+Standard deviation : 7.209603
+MPI_Wtime : 0.0806
+I am rank 1, my var is 25.983623
+MPI_Wtime : 0.0806
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 2 ./comp.x
+I am rank 0, my local toplam is 18007465.000000
+Ortalama = 12.001900
+I am rank 1, my local toplam is 17998235.000000
+I am rank 1, my var is 26.004395
+I am rank 0, my var is 26.000520
+Standard deviation : 7.211443
+MPI_Wtime : 0.0810
+MPI_Wtime : 0.0810
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 2 ./comp.x
+I am rank 0, my local toplam is 18007465.000000
+Ortalama = 12.001900
+I am rank 1, my local toplam is 17998235.000000
+I am rank 0, my var is 26.000520
+Standard deviation : 7.211443
+MPI_Wtime : 0.0805
+I am rank 1, my var is 26.004395
+MPI_Wtime : 0.0804
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 2 ./comp.x
+I am rank 0, my local toplam is 18008866.000000
+Ortalama = 12.006742
+I am rank 1, my local toplam is 18011358.000000
+I am rank 0, my var is 25.982524
+Standard deviation : 7.209192
+MPI_Wtime : 0.0819
+I am rank 1, my var is 25.989931
+MPI_Wtime : 0.0820
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 2 ./comp.x
+I am rank 0, my local toplam is 17998087.000000
+Ortalama = 12.000000
+I am rank 1, my local toplam is 18001912.000000
+I am rank 1, my var is 25.989564
+I am rank 0, my var is 26.024717
+Standard deviation : 7.212093
+MPI_Wtime : 0.0838
+MPI_Wtime : 0.0838
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 2 ./comp.x
+I am rank 0, my local toplam is 17998087.000000
+Ortalama = 12.000000
+I am rank 1, my local toplam is 18001912.000000
+I am rank 0, my var is 26.024717
+I am rank 1, my var is 25.989564
+MPI_Wtime : 0.0826
+Standard deviation : 7.212093
+MPI_Wtime : 0.0826
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 2 ./comp.x
+I am rank 0, my local toplam is 17993630.000000
+I am rank 1, my local toplam is 18000259.000000
+Ortalama = 11.997963
+I am rank 1, my var is 26.020097
+MPI_Wtime : 0.0824
+I am rank 0, my var is 25.965176
+Standard deviation : 7.210081
+MPI_Wtime : 0.0825
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 2 ./comp.x
+I am rank 0, my local toplam is 17988816.000000
+Ortalama = 11.999173
+I am rank 1, my local toplam is 18008703.000000
+I am rank 0, my var is 26.027082
+Standard deviation : 7.214073
+MPI_Wtime : 0.0821
+I am rank 1, my var is 26.015767
+MPI_Wtime : 0.0821
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 2 ./comp.x
+I am rank 0, my local toplam is 17988816.000000
+Ortalama = 11.999173
+I am rank 1, my local toplam is 18008703.000000
+I am rank 0, my var is 26.027082
+Standard deviation : 7.214073
+MPI_Wtime : 0.0808
+I am rank 1, my var is 26.015767
+MPI_Wtime : 0.0808
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 2 ./comp.x
+I am rank 0, my local toplam is 17977011.000000
+Ortalama = 11.993352
+I am rank 1, my local toplam is 18003044.000000
+I am rank 0, my var is 26.006743
+Standard deviation : 7.211312
+MPI_Wtime : 0.0820
+I am rank 1, my var is 25.996285
+MPI_Wtime : 0.0819
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 1 ./comp.x
+I am rank 0, my local toplam is 35981818.000000
+Ortalama = 11.993939
+I am rank 0, my var is 52.027245
+Standard deviation : 7.212991
+MPI_Wtime : 0.0989
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 1 ./comp.x
+I am rank 0, my local toplam is 36010322.000000
+Ortalama = 12.003441
+I am rank 0, my var is 51.991301
+Standard deviation : 7.210499
+MPI_Wtime : 0.0965
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 1 ./comp.x
+I am rank 0, my local toplam is 35985589.000000
+Ortalama = 11.995196
+I am rank 0, my var is 51.984409
+Standard deviation : 7.210021
+MPI_Wtime : 0.0962
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 1 ./comp.x
+I am rank 0, my local toplam is 35985589.000000
+Ortalama = 11.995196
+I am rank 0, my var is 51.984409
+Standard deviation : 7.210021
+MPI_Wtime : 0.0954
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 1 ./comp.x
+I am rank 0, my local toplam is 35989097.000000
+Ortalama = 11.996366
+I am rank 0, my var is 51.990925
+Standard deviation : 7.210473
+MPI_Wtime : 0.0968
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 1 ./comp.x
+I am rank 0, my local toplam is 35989097.000000
+Ortalama = 11.996366
+I am rank 0, my var is 51.990925
+Standard deviation : 7.210473
+MPI_Wtime : 0.0957
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 1 ./comp.x
+I am rank 0, my local toplam is 35987448.000000
+Ortalama = 11.995816
+I am rank 0, my var is 51.994662
+Standard deviation : 7.210732
+MPI_Wtime : 0.0948
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 1 ./comp.x
+I am rank 0, my local toplam is 35996465.000000
+Ortalama = 11.998821
+I am rank 0, my var is 51.975565
+Standard deviation : 7.209408
+MPI_Wtime : 0.0971
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 1 ./comp.x
+I am rank 0, my local toplam is 35996465.000000
+Ortalama = 11.998821
+I am rank 0, my var is 51.975565
+Standard deviation : 7.209408
+MPI_Wtime : 0.0987
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 1 ./comp.x
+I am rank 0, my local toplam is 35996867.000000
+Ortalama = 11.998956
+I am rank 0, my var is 52.026849
+Standard deviation : 7.212964
+MPI_Wtime : 0.0977
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 1 ./comp.x
+I am rank 0, my local toplam is 36000585.000000
+Ortalama = 12.000195
+I am rank 0, my var is 52.006368
+Standard deviation : 7.211544
+MPI_Wtime : 0.0964
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 1 ./comp.x
+I am rank 0, my local toplam is 36000585.000000
+Ortalama = 12.000195
+I am rank 0, my var is 52.006368
+Standard deviation : 7.211544
+MPI_Wtime : 0.1000
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 1 ./comp.x
+I am rank 0, my local toplam is 35980776.000000
+Ortalama = 11.993592
+I am rank 0, my var is 52.003834
+Standard deviation : 7.211368
+MPI_Wtime : 0.1004
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 1 ./comp.x
+I am rank 0, my local toplam is 35980776.000000
+Ortalama = 11.993592
+I am rank 0, my var is 52.003834
+Standard deviation : 7.211368
+MPI_Wtime : 0.0950
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 1 ./comp.x
+I am rank 0, my local toplam is 35962803.000000
+Ortalama = 11.987601
+I am rank 0, my var is 52.018316
+Standard deviation : 7.212372
+MPI_Wtime : 0.0965
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 4 ./comp.x
+I am rank 1, my local toplam is 8994433.000000
+I am rank 2, my local toplam is 8996945.000000
+I am rank 0, my local toplam is 8991735.000000
+I am rank 3, my local toplam is 9000283.000000
+Ortalama = 11.994465
+I am rank 3, my var is 13.010633
+I am rank 1, my var is 12.991271
+I am rank 0, my var is 13.028497
+I am rank 2, my var is 12.997924
+Standard deviation : 7.213066
+MPI_Wtime : 0.0776
+MPI_Wtime : 0.0775
+MPI_Wtime : 0.0776
+MPI_Wtime : 0.0775
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 4 ./comp.x
+I am rank 1, my local toplam is 8994433.000000
+I am rank 2, my local toplam is 8996945.000000
+I am rank 3, my local toplam is 9000283.000000
+I am rank 0, my local toplam is 8991735.000000
+Ortalama = 11.994465
+I am rank 2, my var is 12.997924
+I am rank 0, my var is 13.028497
+I am rank 3, my var is 13.010633
+I am rank 1, my var is 12.991271
+Standard deviation : 7.213066
+MPI_Wtime : 0.0775
+MPI_Wtime : 0.0775
+MPI_Wtime : 0.0774
+MPI_Wtime : 0.0774
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 4 ./comp.x
+I am rank 1, my local toplam is 9003223.000000
+I am rank 2, my local toplam is 9003979.000000
+I am rank 3, my local toplam is 8987043.000000
+I am rank 0, my local toplam is 8988554.000000
+Ortalama = 11.994267
+I am rank 0, my var is 12.988993
+I am rank 3, my var is 12.988019
+I am rank 1, my var is 12.986982
+I am rank 2, my var is 12.999649
+Standard deviation : 7.208581
+MPI_Wtime : 0.0806
+MPI_Wtime : 0.0806
+MPI_Wtime : 0.0805
+MPI_Wtime : 0.0806
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 3 ./comp.x
+I am rank 1, my local toplam is 12001890.000000
+I am rank 0, my local toplam is 12002588.000000
+Ortalama = 12.003656
+I am rank 2, my local toplam is 12006490.000000
+I am rank 0, my var is 17.336911
+I am rank 2, my var is 17.352594
+I am rank 1, my var is 17.353712
+MPI_Wtime : 0.0786
+Standard deviation : 7.214099
+MPI_Wtime : 0.0786
+MPI_Wtime : 0.0786
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 3 ./comp.x
+I am rank 1, my local toplam is 12001890.000000
+I am rank 0, my local toplam is 12002588.000000
+Ortalama = 12.003656
+I am rank 2, my local toplam is 12006490.000000
+I am rank 1, my var is 17.353712
+MPI_Wtime : 0.0808
+I am rank 0, my var is 17.336911
+Standard deviation : 7.214099
+MPI_Wtime : 0.0808
+I am rank 2, my var is 17.352594
+MPI_Wtime : 0.0807
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 3 ./comp.x
+I am rank 1, my local toplam is 11999299.000000
+I am rank 0, my local toplam is 11999239.000000
+I am rank 2, my local toplam is 11998664.000000
+Ortalama = 11.999067
+I am rank 2, my var is 17.342320
+I am rank 0, my var is 17.339604
+I am rank 1, my var is 17.353235
+MPI_Wtime : 0.0799
+MPI_Wtime : 0.0798
+Standard deviation : 7.213540
+MPI_Wtime : 0.0798
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ 
+

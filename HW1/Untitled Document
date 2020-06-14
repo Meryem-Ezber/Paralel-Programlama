@@ -1,0 +1,28 @@
+
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 1 ./comp.x
+I am rank 0, my local toplam is 35996867.000000
+Ortalama = 11.998956
+I am rank 0, my var is 52.026849
+Standard deviation : 7.212964
+MPI_Wtime : 0.0977
+
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 1 ./comp.x
+I am rank 0, my local toplam is 36000585.000000
+Ortalama = 12.000195
+I am rank 0, my var is 52.006368
+Standard deviation : 7.211544
+MPI_Wtime : 0.0964
+
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 1 ./comp.x
+I am rank 0, my local toplam is 35980776.000000
+Ortalama = 11.993592
+I am rank 0, my var is 52.003834
+Standard deviation : 7.211368
+MPI_Wtime : 0.0950
+
+fsmblm0@fsmblm0-A4321A6421-B150 ~/Desktop/paralel $ mpirun -np 1 ./comp.x
+I am rank 0, my local toplam is 35962803.000000
+Ortalama = 11.987601
+I am rank 0, my var is 52.018316
+Standard deviation : 7.212372
+MPI_Wtime : 0.0965
